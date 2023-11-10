@@ -181,14 +181,14 @@
     padding: 0.6%;
 }
 .fut_nav{
+    position: fixed;
+    top: 93%;
+    left: 0;
     width: 100%;
     height: 50px;
     background: #fff;
     text-align: center;
     display: none;
-    position: fixed;
-    left: 0;
-    top: 93%;
 }
 .fut_nav i{
     font-size: 20px;
@@ -255,7 +255,7 @@ input{
     border-radius: 0 0 20px 0;
 }
 .show{
-    transition: .5s;
+    transition: 1s;
     transform: translate(-50%, -50%) scale(0);
     opacity: 0;
     display: none;
