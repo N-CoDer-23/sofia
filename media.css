@@ -135,9 +135,13 @@
         width: 130px;
         
     }
+    .navbar{
+        height: 70px;
+    }
     .tt_nr{
         font-size: 12px;
-        padding: 8%;
+        padding: 4%;
+        height: 50px;
     }
     .im p{
         font-size: 13px;
@@ -202,6 +206,10 @@
     .icons i{
         font-size: 25px;
     }
+    .buttonlar button{
+        font-size: 15px;
+        padding: .5% 1%;
+    }
 }
 @media screen and (max-width: 480px){
     .futer{
@@ -213,7 +221,7 @@
     }
 
     .live{
-        margin: 0 0 0 50%;
+        margin: 0 0 0 58%;
         font-size: 12px;
     }
     .show{
