@@ -208,7 +208,8 @@
         padding-left: 10%;
     }
     .logo2 img{
-        width: 150px; 
+        width: 180px; 
+        margin-left: 3.8%;
     }
 
     .live{
@@ -230,8 +231,8 @@
         padding-left: 0;
     }
     .logo2 img{
-        margin-left: 3%;
-        width: 100px; 
+        margin-left: 4%;
+        width: 130px; 
     }
     .futer li{
         padding: .5% 0;
@@ -252,11 +253,11 @@
     .show input{
         width: 100%;
         padding: 5%;
-        margin-top: 35%;
+        margin-top: 33%;
     }
     .inp i{
         width: 20%;
-        margin-top: 35%;
+        margin-top: 33%;
     }
 }
 

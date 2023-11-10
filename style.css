@@ -186,6 +186,9 @@
     background: #fff;
     text-align: center;
     display: none;
+    position: fixed;
+    left: 0;
+    top: 92.5%;
 }
 .fut_nav i{
     font-size: 20px;
