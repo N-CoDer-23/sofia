@@ -209,11 +209,11 @@
     }
     .logo2 img{
         width: 180px; 
-        margin-left: 3.8%;
+        margin-left: 0%;
     }
 
     .live{
-        margin: 0 0 0 40%;
+        margin: 0 0 0 50%;
         font-size: 12px;
     }
     .show{
@@ -221,6 +221,16 @@
         width: 220px;
         height: 400px;
     }
+    .kompany{
+        margin-left: 5%;
+    }
+    .kompany2{
+        margin-left: 4%;
+    }
+    .kompany3{
+        margin-left: 2%;
+    }
+    
 }
 
 @media screen and (max-width: 347px){
@@ -259,17 +269,18 @@
         width: 20%;
         margin-top: 33%;
     }
+  
 }
 
 @media screen and (max-width: 300px){
     .kompany{
-        width: 170px;
+        width: 160px;
     }
     .kompany2{
-        width: 170px;
+        width: 160px;
     }
     .kompany3{
-        width: 170px;
+        width: 160px;
     }
     .live{
         margin: 0 0 0 8%;
