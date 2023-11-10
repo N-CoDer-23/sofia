@@ -1,0 +1,270 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.sofi{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 17px;
+}
+.logo p:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+    transition: .3s;
+    transform: scale(1.2);
+}
+.menyu{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 17px;
+    transition: .3s;
+}
+.menyu li:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+    transition: .3s;
+    transform: scale(1.2);
+}
+.icon_nav{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+.icon_nav i:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+    transition: .3s;
+    transform: scale(1.2);
+}
+.textp{
+    padding: 2% 5%;
+}
+.texth3{
+    padding: 0 5%;
+    font-size: 25px;
+}
+
+.buttonlar{
+    width: 100%;
+    padding: 1% 5%; 
+    flex-wrap: wrap;
+}
+.buttonlar button{
+    padding: 1% 1%;
+    border-radius: 50px;
+    border: none;
+    margin:  1%;
+    background: rgba(181, 139, 75, 0.728);
+    color: #fff;
+    font-size: 16px;
+}
+
+.textp:hover{
+    cursor: pointer;
+    
+}
+.buttonlar button:hover{
+    cursor: pointer;
+    background: rgba(231, 169, 74, 0.728);
+    
+}
+
+.TORTLART{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    margin: 0 0 2%;
+}
+
+.tort{
+    width: 100%;
+    padding: 0 4% 2% 6%;
+}
+.tt_nr{
+    width: 100%;
+    height: 80px;
+    background: rgba(181, 139, 75, 0.728);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    margin:  2% 0; 
+}
+.TORTLART img:hover{
+    cursor: pointer;
+}
+.im p{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.futer1{
+    width: 100%;
+    background: #000000e2;
+    color: #fff;
+}
+.futer{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+    padding: 2% 4%;
+}
+.kompany{
+    width: 250px;
+    height: 100%;
+}
+.kompany2{
+    width: 250px;
+    height: 100%;
+}
+.kompany3{
+    width: 250px;
+    height: 100%;
+}
+.kompany3 h2{
+    margin-bottom: 2%;
+}
+.kompany li{
+    list-style: none;
+    padding: 5% 0;
+}
+.kompany2 li{
+    list-style: none;
+    padding: 5% 0;
+}
+.icons{
+    font-size: 40px;
+    margin: 5% 0;
+}
+.soft{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+.kompany li:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+}
+.kompany2 li:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+}
+.kompany3 i:hover{
+    cursor: pointer;
+    color: rgb(255, 214, 7);
+}
+.live{
+    margin: 0 0 0 85%;
+    width: 200px;
+    position: fixed;
+    top: 80%;
+    left: 0;
+    background: rgb(0, 102, 255);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6%;
+}
+.fut_nav{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    display: none;
+}
+.fut_nav i{
+    font-size: 20px;
+    margin: 1.8%;
+}
+i p{
+    font-size: 13px;
+}
+
+
+.black{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    backdrop-filter: blur(1px);
+}
+
+.show{
+    width: 300px;
+    height: 500px;
+    background: rgb(240, 242, 244);
+    text-align: center;
+    margin: 3% 5% 10% 70%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.show{
+    
+    border-radius: 20px 20px;
+}
+.nav{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 50px;
+    background: aqua;
+
+}
+.show img{
+    padding: 5% 0;
+}
+input{
+    width: 80%;
+    border: none;
+    border-radius: 0 0 0 20px;
+}
+.show p{
+    padding: 5% 0;
+}
+.show input{
+    width: 80%;
+    padding: 5%;
+    margin-top: 67%;
+}
+.inp i{
+    width: 20%;
+    margin-top: 67%;
+    background: #fff;
+    padding-top: 5%;
+    border-radius: 0 0 20px 0;
+}
+.show{
+    transition: .5s;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    display: none;
+}
+.show{
+
+    transform:  scale(1);
+    opacity: 1;
+}
+.inp{
+    display: flex;
+}
+.inp input:checked{
+    border: none;
+}

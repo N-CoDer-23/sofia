@@ -1,0 +1,277 @@
+@media screen and (max-width: 1319px){
+    .logo{
+        gap: 20px;
+        font-size: 16px;
+    }
+    .menyu{
+        gap: 20px;
+        font-size: 16px;
+    }
+    .icon_nav{
+        gap: 20px;
+        font-size: 16px;
+    }
+    .TORTLART img{
+        width: 180px;
+    }
+    .futer li{
+        font-size: 15px;
+    }
+    .futer h2{
+        font-size: 18px;
+    }
+    .kompany{
+        font-size: 16px;
+    }
+    .kompany2{
+        font-size: 16px;
+    }
+    .kompany3{
+        font-size: 16px;
+    }
+    .soft{
+        font-size: 15px;
+    }
+    .live{
+        margin: 0 0 0 78%;
+    }
+    .show{
+        margin: 3% 5% 10% 65%;
+    }
+}
+
+
+@media screen and (max-width: 944px){
+    .live{
+        margin: 0 0 0 72%;
+    }
+    .textp{
+        font-size: 15px;
+    }
+    .texth3{
+        font-size: 19.5px;
+    }
+    .buttonlar button{
+        font-size: 12px;
+    }
+    .logo{
+        gap: 14px;
+        font-size: 14px;
+    }
+    .menyu{
+        gap: 14px;
+        font-size: 14px;
+    }
+    .icon_nav{
+        gap: 14px;
+        font-size: 14px;
+    }
+    .logo{
+        width: 50px;
+    }
+    .kompany{
+        font-size: 14px;
+    }
+    .kompany2{
+        font-size: 14px;
+    }
+    .kompany3{
+        font-size: 14px;
+    }
+    .kompany3 h1{
+        font-size: 25px;
+    }
+    .soft{
+        font-size: 12px;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .brend{
+        
+        font-size: 30px;
+    }
+    .logo2 img{
+        width: 100px;
+        padding:  1% 8% 0 0;
+    }
+    .show{
+        margin: 3% 5% 10% 58%;
+        width: 290px;
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .menyu li{
+        display: none;
+    }
+    .fut_nav{
+        display: block;
+    }
+    .tt_nr{
+        font-size: 13px;
+        padding: 4%;
+    }
+    .TORTLART img{
+        width: 150px;
+    }
+    .TORTLART{
+        gap: 15px;
+
+    }
+    .live{
+        margin: 0 0 0 70%;
+    }
+    .show{
+        margin: 3% 5% 10% 50%;
+        width: 280px;
+        height: 480px;
+    }
+}  
+
+@media screen and (max-width: 725px){
+    .TORTLART img{
+        width: 130px;
+        
+    }
+    .tt_nr{
+        font-size: 12px;
+        padding: 4%;
+    }
+    .im p{
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+    .live{
+        margin: 0 0 0 60%;
+    }
+}
+
+
+@media screen and (max-width: 647px){
+    .TORTLART img{
+        width: 100px;
+    }
+    .im p{
+        font-size: 10px;
+    }
+    .futer1{
+        text-align: center;
+    }
+    .futer{
+        display: block;
+        text-align: center;
+        padding-left: 30%;
+    }
+    .logo2 img{
+        width: 200px;
+        margin-left: -30%;
+    }
+    .soft{
+        display: block;
+        text-align: center;
+    }
+    .live{
+        margin: 0 0 0 55%;
+    }
+    .show{
+        margin: 3% 5% 10% 40%;
+        width: 270px;
+        height: 470px;
+    }
+  
+}
+@media screen and (max-width: 502px){
+    .TORTLART img{
+        width: 90px;
+    }
+    .futer{
+        padding-left: 20%;
+    }
+    .logo2 img{
+        width: 180px; 
+    }
+    .live{
+        margin: 0 0 0 48%;
+        width: 150px;
+    }
+    .brend img{
+        width: 80px;
+    }
+    .icons i{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 480px){
+    .futer{
+        padding-left: 10%;
+    }
+    .logo2 img{
+        width: 150px; 
+    }
+
+    .live{
+        margin: 0 0 0 40%;
+        font-size: 12px;
+    }
+    .show{
+        margin: 3% 5% 10% 25%;
+        width: 220px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 347px){
+    .TORTLART img{
+        width: 80px;
+    }
+    .futer{
+        padding-left: 0;
+    }
+    .logo2 img{
+        margin-left: 3%;
+        width: 100px; 
+    }
+    .futer li{
+        padding: .5% 0;
+    }
+    .live{
+        margin: 0 0 0 22%;
+        font-size: 12px;
+    }
+    .logo p{
+        display: none;
+    }
+    .show{
+        margin: 3% 5% 10% 20%;
+        width: 200px;
+        height: 320px;
+        font-size: 13px;
+    }
+    .show input{
+        width: 100%;
+        padding: 5%;
+        margin-top: 35%;
+    }
+    .inp i{
+        width: 20%;
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .kompany{
+        width: 160px;
+    }
+    .kompany2{
+        width: 160px;
+    }
+    .kompany3{
+        width: 160px;
+    }
+    .live{
+        margin: 0 0 0 8%;
+        font-size: 12px;
+    }
+}
